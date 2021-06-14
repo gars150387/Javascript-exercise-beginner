@@ -1,5 +1,5 @@
 var names = ['John', 'Kenny', 'Tom', "Bob", 'Dilan'];
-function sortNames(){
-    names.sort()
+let sortNames = function(){
+  return names.sort();  
 }
-console.log(sortNames());
+console.log(sortNames())
